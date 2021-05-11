@@ -50,7 +50,7 @@ app.use((error, req, res, next) => {
 mongoose
   .connect(
     // Put your MongoDB Api Key Below Here.
-    `mongodb+srv://jahidkhan:Mongodb12345678@cluster0-ptyzp.mongodb.net/mern`
+    ``
   )
   .then(() => {
     app.listen(5000);
